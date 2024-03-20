@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+@font-face {
+    font-family: 'cg';
+    src: url(../fonts/triumvirate-cg-comp-cufonfonts-webfont/triumviratecgcomp.woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'cg';
+    src: url(../fonts/triumvirate-cg-comp-cufonfonts-webfont/triumviratecgextracomp.woff);
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'cg';
+    src: url(../fonts/Triumvirate-Condensed_FontYukle/Triumvirate\ Condensed.ttf);
+    font-weight: 500;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f3f7e2;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    padding: 0 30px;
+    overflow-x: clip;
+}
+button {
+    cursor: pointer;
+}
+
+
+
+
+
+.topBg {
+    width: 100%;
+    height: 70px;
+    /* background-color: #292945; */
+    position: relative;
+    overflow-x: clip;
+    overflow-y: visible;
+}
+.topBg::before {
+    width: 115%;
+    height: 114%;
+    background-color: #292945;
+    content: '';
+    position: absolute;
+    top: -33px;
+    left: -13px;
+    rotate: 2deg;
+}
+
+.hero .logo {
+    display: block;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.hero .wavyImgWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 99px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero .downBoldImg {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.hero .buildingImgWrap {
+    width: 100%;
+    height: 645px;
+    /* margin-bottom: 30px; */
+    overflow: hidden;
+    position: relative;
+}
+.hero .buildingImgWrap::after {
+    width: 115%;
+    height: 60px;
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: -10px;
+    background-color: #f3f7e2;
+    rotate: -2deg;
+}
+
+.hero .buildingImgWrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+.invite {
+    margin-top: -30px;
+}
+.invite .container {
+    padding: 45px 15px;
+    /* background-color: #292945; */
+    position: relative;
+    overflow: hidden;
+}
+
+.invite .container::before {
+    width: 115%;
+    height: 100%;
+    background-color: #292945;
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: -25px;
+    rotate: -2deg;
+    z-index: 10;
+}
+
+.invite img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 11;
+}
+
+.invite p {
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 11;
+}
+
+
+
+
+.timing {
+    /* background-color: #afd247; */
+    overflow: hidden;
+    position: relative;
+    margin-top: -145px;
+}
+.timing::before {
+    width: 115%;
+    height: 100%;
+    background-color: #afd247;
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    left: -15px;
+    rotate: -2deg;
+}
+
+.timing .container {
+    padding: 65px 0;
+    padding-top: 170px;
+    position: relative;
+}
+.timing .dotWrap {
+    position: absolute;
+    top: 59%;
+    left: -5px;
+    transform: translateY(-50%);
+}
+.timing .dotWrap .singleDot {
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-bottom: 28px;
+}
+.timing h2 {
+    font-size: 250px;
+    font-weight: 700;
+    text-align: center;
+    color: #292945;
+    font-family: 'cg', sans-serif;
+    line-height: 205px;
+}
+.timing h3 {
+    font-size: 58px;
+    font-weight: 500;
+    text-align: center;
+    color: #292945;
+    font-family: 'cg', sans-serif;
+    margin-bottom: 25px;
+}
+
+
+
+.timing p {
+    font-size: 35px;
+    color: #292945;
+    text-align: center;
+    padding: 10px 45px;
+}
+.timing p span {
+    font-weight: 700;
+}
+
+
+
+
+
+
+.limit {
+    /* background-color: #292945; */
+    padding: 60px 45px;
+    position: relative;
+    margin-top: -30px;
+}
+.limit::before {
+    width: 115%;
+    height: 100%;
+    background-color: #292945;
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 0;
+    rotate: 2deg;
+}
+
+.limit .container {
+    position: relative;
+}
+.limit p {
+    font-size: 54px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.limit p span {
+    font-weight: 400;
+}
+
+
+
+
+.contact .container {
+    padding: 30px 0;
+    padding-bottom: 70px;
+    position: relative;
+}
+.contact .dotWrap {
+    position: absolute;
+    top: 53%;
+    right: -5px;
+    transform: translateY(-50%);
+}
+.contact .dotWrap .singleDot {
+    width: 21px;
+    height: 21px;
+    background-color: #292945;
+    border-radius: 50%;
+    margin-bottom: 28px;
+}
+.contact img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.contact form {
+    padding: 5px 45px;
+}
+
+.contact form input {
+    width: 85%;
+    height: 55px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: end;
+    padding: 0 25px;
+}
+
+.contact form input::placeholder {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.contact form button {
+    padding: 8px 32px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #afd247;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.agenda {
+    background-color: #292945;
+    position: relative;
+}
+.agenda::before {
+    width: 115%;
+    height: 100%;
+    background-color: #292945;
+    content: '';
+    position: absolute;
+    left: -15px;
+    bottom: 30px;
+    rotate: 2deg;
+}
+.agenda .container {
+    padding: 25px 0;
+    padding-top: 15px;
+    position: relative;
+}
+.agenda h2 {
+    font-size: 45px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+.agenSingle {
+    display: flex;
+    align-items: flex-start;
+    font-size: 33px;
+    color: #fff;
+}
+.agenLeft {
+    width: 67%;
+    text-align: end;
+    padding-right: 15px;
+    border-right: 1px solid #fff;
+}
+.agenRight {
+    width: 33%;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+
+@media (max-width: 840px) {
+    .hero h1 {
+        font-size: 75px;
+    }    
+    .hero h2 {
+        font-size: 50px;
+    }
+
+    .invite p {
+        font-size: 30px;
+    }
+
+    .timing h2 {
+        font-size: 150px;
+        line-height: 125px;
+
+    }
+    .timing h3 {
+        font-size: 45px;
+    }
+
+    .timing p {
+        font-size: 30px;
+    }
+
+    .limit p {
+        font-size: 45px;
+    }
+
+    .agenSingle {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+@media (max-width: 550px) {
+    .hero h1 {
+        font-size: 60px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero .buildingImgWrap {
+        height: 380px;
+    }
+
+
+    .invite p, .timing p {
+        font-size: 24px;
+    }
+
+    .timing h2 {
+        font-size: 100px;
+        line-height: 80px;
+    }
+    .timing h3 {
+        font-size: 30px;
+    }
+
+    .timing .dotWrap, .contact .dotWrap {
+        display: none;
+    }
+
+
+    .limit p {
+        font-size: 33px;
+    }
+
+    .contact form {
+        padding: 5px 10px;
+    }
+    .contact form input {
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact form input::placeholder {
+        font-size: 20px;
+    }
+
+    .agenda h2 {
+        font-size: 38px;
+        line-height: 35px;
+    }
+
+    .agenSingle {
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 450px) {
+    .agenSingle {
+        font-size: 17px;
+    }
+}
+
+
+
+@media (max-width: 370px) {
+    .timing h2 {
+        font-size: 85px;
+    }
+
+    
+    .agenSingle {
+        font-size: 15px;
+    }
+}
