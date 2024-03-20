@@ -322,7 +322,7 @@ button {
     margin-bottom: 20px;
     font-size: 24px;
     font-weight: 600;
-    text-align: end;
+    /* text-align: end; */
     padding: 0 25px;
 }
 
@@ -381,19 +381,20 @@ button {
 
 .agenSingle {
     display: flex;
+    flex-direction: row-reverse;
     align-items: flex-start;
     font-size: 33px;
     color: #fff;
 }
 .agenLeft {
     width: 67%;
-    text-align: end;
     padding-right: 15px;
     border-right: 1px solid #fff;
 }
 .agenRight {
     width: 33%;
     padding-left: 15px;
+    text-align: end;
 }
 
 
